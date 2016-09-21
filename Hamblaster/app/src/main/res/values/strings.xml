@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hamblaster</string>
+    <string name="SignInTitle">Login</string>
+    <string name="Userusername">username</string>
+    <string name="userpassword">password</string>
+    <string name="usersubmitt">Submit</string>
+</resources>

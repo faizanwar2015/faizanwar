@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Grocery2Door</string>
+    <string name="customerLogin">Login</string>
+    <string name="custumerRegister">Register</string>
+    <string name="customerPayment">Payment</string>
+    <string name="Customerpromocodes">PromoCodes</string>
+    <string name="customerFaq">FAQ</string>
+    <string name="customercontactus">Contact Us</string>
+    <string name="CustomerReturnPolicy">ReturnPolicy</string>
+    <string name="reportProblem">Report</string>
+    <string name="registerscreen">Register</string>
+    <string name="astrextext">All items marked in * is mandatory</string>
+    <string name="userabout_us">About Us</string>
+    <string name="User1about_us">About Us</string>
+    <string name="Userdetails">About us</string>
+    <string name="USerabout_us">About Us</string>
+    <string name="Userabouttext1">FreshDirect delivers the highest quality food from farm to table; that way, customers can continue to live their active lives, saving time for what really matters. We know that finding a variety of groceries can be a big challenge — it\'s inconvenient to shop at different stores for different items (deli meat from the butcher shop, fresh bread from the bakery, bulk-size packages from big box retailers, and local vegetables from weekend farmers\' markets). Solving for this challenge was the idea behind FreshDirect. We use our direct relationships with farmers and artisans to drive superior quality in sourcing, then use technology to make it easier to shop and deliver those fresh products to customers\' doors. It\'s faster, it\'s fresher: It\'s grocery shopping perfected.</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="usermessage">edit_text>Enter the message </string>
+    <string name="usertext">usertext</string>
+    <string name="submitmessage">Submit</string>
+    <string name="Click">submitmessage</string>
+    <string name="clickbutton">ClickButton</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.resalat.grocery2door.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/customerLogin"
+        android:id="@+id/user_login"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/user_FAQ"
+        android:layout_alignStart="@+id/user_FAQ" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custumerRegister"
+        android:id="@+id/user_register"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/user_terms"
+        android:layout_toEndOf="@+id/user_terms" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/customerFaq"
+        android:id="@+id/user_FAQ"
+        android:layout_above="@+id/user_contactus"
+        android:layout_alignLeft="@+id/user_contactus"
+        android:layout_alignStart="@+id/user_contactus"
+        android:layout_marginBottom="57dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Customerpromocodes"
+        android:id="@+id/user_Codes"
+        android:layout_alignTop="@+id/user_FAQ"
+        android:layout_alignLeft="@+id/user_register"
+        android:layout_alignStart="@+id/user_register" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/customercontactus"
+        android:id="@+id/user_contactus"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/user_terms"
+        android:layout_alignStart="@+id/user_terms" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Userdetails"
+        android:id="@+id/user_aboutus"
+        android:layout_above="@+id/user_terms"
+        android:layout_alignLeft="@+id/user_Codes"
+        android:layout_alignStart="@+id/user_Codes" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms&amp;Condition"
+        android:id="@+id/user_terms"
+        android:layout_marginTop="73dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/user_contactus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reportProblem"
+        android:id="@+id/user_report"
+        android:layout_alignBottom="@+id/user_terms"
+        android:layout_alignRight="@+id/user_aboutus"
+        android:layout_alignEnd="@+id/user_aboutus" />
+</RelativeLayout>
